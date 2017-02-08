@@ -67,7 +67,7 @@ export function rotate(rotation: RotationDirection, rotationSpeed: number): numb
  * update rotation angle
  */
 export function angle(angle: number, rotation: number) {
-    return angle + rotation;
+    return angle + rotation; //TODO mod 2 pi
 }
 
 /**
